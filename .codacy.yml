@@ -1,0 +1,16 @@
+---
+exclude_paths:
+  - 'src/pur/generated/*.py'
+  - 'src/pur/protos/**'
+  - 'tests/data/**'
+  - 'tools/**'
+  - 'docs/**'
+  - 'versioneer.py'
+  - 'setup.py'
+  - 'src/pur/_version.py'
+  - 'src/pur/measure.py'
+  - 'start_pur.py'
+engines:
+  duplication:
+    exclude_paths:
+      - 'tests/**'
